@@ -1,0 +1,12 @@
+screens/ui_StartScr.c
+screens/ui_MainScr.c
+screens/ui_DrugManageScr.c
+screens/ui_SettingScr.c
+ui.c
+components/ui_comp_hook.c
+ui_helpers.c
+ui_events.c
+images/ui_img_drug_png.c
+images/ui_img_setting_png.c
+images/ui_img_back_png.c
+fonts/ui_font_SourceHanSansCN30.c

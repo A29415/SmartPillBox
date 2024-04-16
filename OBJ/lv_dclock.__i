@@ -1,0 +1,5 @@
+--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\HARDWARE\24CXX -I ..\HARDWARE\LCD -I ..\HARDWARE\TOUCH -I ..\HARDWARE\IIC -I ..\HARDWARE\TIMER -I ..\Middlewares\LVGL\GUI -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl\examples\porting -I ..\Middlewares\LVGL\GUI_APP\demos -I ..\Middlewares\LVGL\GUI_APP\demos\stress -I ..\Middlewares\LVGL\GUI_APP\demos\music -I ..\Middlewares\LVGL\GUI_APP\generated\guider_customer_fonts -I ..\Middlewares\LVGL\GUI_APP\generated -I ..\Middlewares\LVGL\GUI_APP\custom
+-ID:\IOT_Hardware\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+-ID:\IOT_Hardware\Keil_5\ARM\CMSIS\Include
+-D__UVISION_VERSION="533" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER
+-o ..\obj\lv_dclock.o --omf_browse ..\obj\lv_dclock.crf --depend ..\obj\lv_dclock.d "..\Middlewares\LVGL\GUI\lvgl\src\extra\widgets\dclock\lv_dclock.c"
